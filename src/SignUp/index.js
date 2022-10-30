@@ -41,6 +41,7 @@ class Login extends Component {
       currentresisdence,
       occupation,
       company,
+      exist,
       salary,
       experience,
       casteperference,
