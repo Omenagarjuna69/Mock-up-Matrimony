@@ -183,6 +183,7 @@ class Login extends Component {
       company,
       salary,
       experience,
+      exist,
       casteperference,
       ageprefernce,
       partnerperference,
