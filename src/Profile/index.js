@@ -3,14 +3,10 @@ import './index.css'
 
 const HomeProfile =props=>{
     const {list}=props
-    const {photo,
+    const {
     profileId,
     maskedName,
-    Age,
-    Salary,
-    Cast,
-    Occupation,
-    partnerSalaryPreference}=list
+    Age}=list
     return(
             <div className='divEle2'>
                 <img className="imageEle" src={profileId}/>
