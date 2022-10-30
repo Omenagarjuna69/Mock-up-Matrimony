@@ -112,9 +112,8 @@ profiles:[],exist:""}
     render(){
         
         const {firstname,middlename,profiles,lastname,email,phonenumber,caste,permanentresisdence
-            ,currentresisdence,exist,occupation,company,salary,experience,casteperference,ageprefernce,partnerperference}=this.state
+            ,currentresisdence,occupation,company,salary,experience,casteperference,ageprefernce,partnerperference}=this.state
             localStorage.setItem(firstname,JSON.stringify(profiles))
-            console.log(exist)
             return(
                 <div className="BackgroundSignUp">
                 
