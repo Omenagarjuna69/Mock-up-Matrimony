@@ -9,7 +9,7 @@ const HomeProfile =props=>{
     Age}=list
     return(
             <div className='divEle2'>
-                <img className="imageEle" src={profileId}/>
+                <img className="imageEle" src={profileId} alt="profile"/>
             <p>{maskedName}</p>
             <p>{Age}</p>
             
